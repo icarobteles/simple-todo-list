@@ -1,0 +1,7 @@
+<ul class="tasklist">
+  @for (task of tasks; track task.id) {
+    <app-task [task]="task"/>
+  } @empty {
+    <app-empty-task />
+  }
+</ul>

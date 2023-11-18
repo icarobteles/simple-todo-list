@@ -1,0 +1,23 @@
+:host {
+  width: 100vw;
+  padding: 0 15px 50px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 64px;
+}
+
+.main {
+  width: 100%;
+  max-width: 736px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main--header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

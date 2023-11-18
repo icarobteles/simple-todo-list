@@ -1,0 +1,7 @@
+<li class="task">
+  <app-checkbox class="task--checkbox" [taskId]="task.id" />
+  <p class="task--description" [ngClass]="task.isCompleted ? 'task--description__completed' : ''">
+    {{task.description}}
+  </p>
+  <app-btn-delete class="task--delete" [taskId]="task.id" />
+</li>

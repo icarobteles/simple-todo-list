@@ -1,0 +1,31 @@
+:host {
+  display: block;
+}
+
+.task {
+  width: 100%;
+  max-width: 736px;
+  padding: 16px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-400);
+  background: var(--gray-500);
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.06);
+}
+
+.task--description {
+  flex: 2;
+  color: var(--gray-100);
+  font-size: var(--sm-size);
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.task--description__completed {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}

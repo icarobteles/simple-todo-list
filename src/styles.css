@@ -1,1 +1,71 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
+
+:root {
+  --purple: #8284fa;
+  --purple-dark: #5e60ce;
+  --blue: #4ea8de;
+  --blue-dark: #1e6f9f;
+  --blue-dark-hover: rgba(30, 111, 159, 0.2);
+  --gray-700: #0d0d0d;
+  --gray-600: #1a1a1a;
+  --gray-500: #262626;
+  --gray-400: #333333;
+  --gray-300: #808080;
+  --gray-200: #d9d9d9;
+  --gray-100: #f2f2f2;
+  --danger: #e25858;
+
+  --xs-size: 0.75rem;
+  --sm-size: 0.875rem;
+  --md-size: 1rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+li {
+  list-style: none;
+}
+
+a,
+button {
+  cursor: pointer;
+  color: inherit;
+  background: none;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea,
+hr {
+  outline: none;
+  border: none;
+}
+
+i {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+body {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  padding-top: 72px;
+
+  background: linear-gradient(
+    to bottom,
+    var(--gray-700) 200px,
+    var(--gray-600) 0%,
+    var(--gray-600) 70%
+  );
+}

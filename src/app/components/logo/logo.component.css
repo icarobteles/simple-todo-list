@@ -1,0 +1,26 @@
+:host {
+  display: block;
+}
+
+.logo {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+}
+
+.logo--img {
+  width: 22px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.logo--title {
+  color: var(--purple-dark);
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: normal;
+
+  > span {
+    color: var(--blue);
+  }
+}

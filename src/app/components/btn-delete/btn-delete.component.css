@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+.btn {
+  width: 24px;
+  height: 24px;
+  padding: 5px 5.522px 5px 6px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 4px;
+
+  &:hover {
+    background-color: var(--gray-400);
+
+    .btn--trash {
+      filter: brightness(0) saturate(100%) invert(58%) sepia(26%)
+        saturate(4741%) hue-rotate(322deg) brightness(88%) contrast(99%);
+    }
+  }
+}
+
+.btn--trash {
+  width: 12.478px;
+  height: 14px;
+  background-image: url("/assets/icons/trash.svg");
+}

@@ -1,0 +1,37 @@
+:host {
+  display: block;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  font-size: var(--md-size);
+  font-weight: 700;
+}
+
+.stat__total {
+  color: var(--blue);
+}
+
+.stat__completed {
+  color: var(--purple);
+}
+
+.stat--counter {
+  padding: 2px 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  border-radius: 999px;
+  background: var(--gray-400);
+
+  color: var(--gray-200);
+  font-size: var(--xs-size);
+  font-weight: 700;
+}

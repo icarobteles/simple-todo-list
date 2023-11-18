@@ -1,0 +1,16 @@
+<form class="form" [formGroup]="form" (submit)="onSubmit()">
+  <input
+    class="form--input"
+    placeholder="Adicione uma nova tarefa"
+    formControlName="description"
+  />
+
+  <button class="form--submit" type="submit">
+    Criar
+    <i class="form--plus"></i>
+  </button>
+
+</form>
+@if (formIsInvalid()) {
+<span class="error">Descrição Obrigatória</span>
+}
